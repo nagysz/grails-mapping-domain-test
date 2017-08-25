@@ -10,7 +10,7 @@ class MappedDomain {
     static constraints = {
     }
 
-    static mapping = {
+    static mapping = orm ({
         table('mapped')
-    }
+    })
 }
